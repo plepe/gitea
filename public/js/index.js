@@ -910,6 +910,11 @@ function initEditor() {
             }
         }
 
+        // if this file is an OpenStreetBrowser Editor, load that editor and return
+        if (typeof OpenStreetBrowserEditor !== 'undefined' && OpenStreetBrowserEditor.set($editArea)) {
+          return;
+        }
+
         // Else we are going to use CodeMirror
         if (!codeMirrorEditor && !setCodeMirror($editArea)) {
             return;

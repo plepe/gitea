@@ -66,5 +66,72 @@
 	<!-- JavaScript -->
 	<script src="{{AppSubUrl}}/vendor/plugins/semantic/semantic.min.js"></script>
 	<script src="{{AppSubUrl}}/js/index.js?v={{MD5 AppVer}}"></script>
+
+        <!-- OpenStreetBrowser Editor -->
+	<script src="{{AppSubUrl}}/openstreetbrowser-editor/dist/app.js?v={{MD5 AppVer}}"></script>
+        <link rel="stylesheet" href="{{AppSubUrl}}/openstreetbrowser-editor/node_modules/leaflet/dist/leaflet.css" />
+        <link rel="stylesheet" href="{{AppSubUrl}}/openstreetbrowser-editor/node_modules/font-awesome/css/font-awesome.min.css" />
+        <script src="{{AppSubUrl}}/openstreetbrowser-editor/node_modules/leaflet/dist/leaflet.js"></script>
+        <script src="{{AppSubUrl}}/openstreetbrowser-editor/node_modules/leaflet-textpath/leaflet.textpath.js"></script>
+        <script src="{{AppSubUrl}}/openstreetbrowser-editor/node_modules/leaflet-polylineoffset/leaflet.polylineoffset.js"></script>
+
+        <!-- OpenStreetBrowser Editor Dependencies - legacy -->
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/base//hooks/hooks.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/base//weight_sort/weight_sort.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/base//sprintf/sprintf.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/base//sprintf/vsprintf.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/lang/inc/lang.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/modules/date/pad.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/modules/date/date_format.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/modules/date/date_parse_from_format.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/modules/calendar/calendar.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/base//json_readable_encode/json_readable_encode.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/functions.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_array.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_form_chooser.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_form.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_hash.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_text.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_textarea.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_boolean.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_radio.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_checkbox.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_color.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_password.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_keywords.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_json.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_unsupported.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_select.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_numeric.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_file.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_date.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_label.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_autocomplete.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_display.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_hidden.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_intermediate_text.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_switch.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_fixed.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/base//messages/messages.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/base//page/code.js"></script>
+<script type='text/javascript' src="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/modules/debug/code.js"></script>
+<link rel='stylesheet' type='text/css' href="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/modules/calendar/calendar.css">
+<link rel='stylesheet' type='text/css' href="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form.css">
+<link rel='stylesheet' type='text/css' href="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element.css">
+<link rel='stylesheet' type='text/css' href="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_text.css">
+<link rel='stylesheet' type='text/css' href="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_array.css">
+<link rel='stylesheet' type='text/css' href="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_form_chooser.css">
+<link rel='stylesheet' type='text/css' href="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_form.css">
+<link rel='stylesheet' type='text/css' href="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_keywords.css">
+<link rel='stylesheet' type='text/css' href="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_textarea.css">
+<link rel='stylesheet' type='text/css' href="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_select.css">
+<link rel='stylesheet' type='text/css' href="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_autocomplete.css">
+<link rel='stylesheet' type='text/css' href="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/form_element_file.css">
+<link rel='stylesheet' type='text/css' href="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/inc/theme.css">
+<link rel='stylesheet' type='text/css' href="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/base//messages/style.css">
+<link rel='stylesheet' type='text/css' href="{{AppSubUrl}}/openstreetbrowser-editor/style.css">
+<link rel='stylesheet' type='text/css' href="{{AppSubUrl}}/openstreetbrowser-editor/lib/modulekit/form/modules/debug/style.css">
 </body>
 </html>
